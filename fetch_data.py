@@ -1,5 +1,9 @@
 import requests
 import json
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def fetch_and_save():
     url = "https://api.data.gov.in/resource/9ef84268-d588-465a-a308-a864a43d0070"
