@@ -1,5 +1,4 @@
 live_data.json
-.env *.parquet
 *.parquet
 .env
 __pycache__/
