@@ -1,0 +1,8 @@
+duckdb==1.5.5
+pandas==2.3.3
+pandas-ta==0.4.71b0
+python-dotenv @ file:///croot/python-dotenv_1745610241282/work
+requests @ file:///croot/requests_1730999120400/work
+requests-file @ file:///croot/requests-file_1749719340943/work
+requests-toolbelt @ file:///work/perseverance-python-buildout/croot/requests-toolbelt_1728411657696/work
+streamlit @ file:///croot/streamlit-split_1748963583989/work/streamlit
