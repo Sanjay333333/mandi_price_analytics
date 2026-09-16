@@ -14,21 +14,29 @@ Working with raw government data can be messy. This project solves two main prob
 ### 1. Download the code
 ```bash
 git clone [https://github.com/Sanjay333333/mandi_price_analytics.git](https://github.com/Sanjay333333/mandi_price_analytics.git)
-
 cd mandi_price_analytics
+```
 
 ### 2. Set up Python
 Create a virtual environment and install the required libraries:
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
+```
 
 ### 3. Add your API Key
 Create a file named .env in the folder and paste your data.gov.in API key inside:
+```text
 API_KEY="your_api_key_here"
+```
 
 ### 4. Run the App
 First, run the script to download the latest market data:
+```bash
 python fetch_data.py
+```
 Then, launch the visual dashboard:
+```bash
 streamlit run live_app.py
+```
